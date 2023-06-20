@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <img class="object-contain h-10 w-10" src="estrela.png" alt="logo" class="sm:flex-shrink-0 mx-auto sm:mx-0 h-24">
+        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <span class="ml-3 text-xl">Horacolus</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900">Astrology Resources</a>
+        <a class="mr-5 hover:text-gray-900">Our team</a>
+        <a class="mr-5 hover:text-gray-900">Work with us</a>
+        <a class="mr-5 hover:text-gray-900">Info</a>
+      </nav>
+    </div>
+  </header>
+<body class="bg-purple-100">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="bg-purple-500 lg:min-h-screen lg:flex lg:items-center p-8 sm:p-12">
+            <div class="flex-grow">
+                <h1 class="text-white text-center text-2xl sm:text-5xl mb-2">
+                    Hey Signatory! Welcome
+                </h1>
+                <p class="text-center text-purple-200 sm:text-lg">
+                    Login to get started
+                </p>
+            </div>
+        </div>
+
+        <div class="lg:min-h-screen lg:flex lg:items-center p-12 lg:p-24 xl:p-48">
+            <div class="flex-grow bg-white shadow-lg rounded-md border border-gray-200 p-8">
+                <div class="sm:flex sm:items-center">
+                    <img src="foto.jpg" alt="Rosto de um homem" class="sm:flex-shrink-0 mx-auto sm:mx-0 h-24 rounded-full">
+                    <div class="sm:ml-4 sm:text-left text-center">
+                        <p class="text-xl">Thomas O'Brien</p>
+                        <p class="text-sm text-gray-600">Horacolus Senior Astrologer</p>
+                        <div class="mt-4">
+                            <button type="button" class="text-purple-500 hover:text-white hover:bg-purple-500 border border-purple-500 font-semibold rounded-md text-xs px-4 py-1 focus-outline-none">
+                                It's not Peter?
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <form class="flex w-full mt-8">
+                    <input type="password" placeholder="Your password" class="flex-1 w-full text-gray-700 bg-gray-200 rounded-md hover:bg-white border border-gray-200 outline-none focus:bg-white py-2 px-4">
+                    <button type="button" class="flex-shrink-0 outline-none py-2 px-4 ml-4 text-white font-semibold rounded-md bg-purple-500 hover:bg-purple-600 placeholder:ml-4">Enter</button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <footer class="text-gray-600 body-font">
+        <div class="container px-4 py-10 mx-auto flex items-center sm:flex-row flex-col">
+            <img class="object-contain h-10 w-10" src="estrela.png" alt="logo" class="sm:flex-shrink-0 mx-auto sm:mx-0 h-24">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <span class="ml-3 text-xl">Horacolus</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Horacolus Coorporation —
+            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@thallesenrick</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-purple-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-purple-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-purple-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-purple-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+</body>
+</html>

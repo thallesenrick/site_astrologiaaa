@@ -1,0 +1,19 @@
+@tailwind base;
+
+.btn {
+    @apply outline-none py-2 px-4 text-white font-semibold rounded-md;
+}
+
+.btn-blue {
+    @apply bg-blue-400;
+}
+
+.btn-blue:hover {
+    @apply hover:bg-blue-500;
+}
+
+
+@tailwind components;
+
+@tailwind utilities;
+
